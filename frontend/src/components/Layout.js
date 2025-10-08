@@ -77,10 +77,10 @@ const Layout = ({ children, onLogout }) => {
                 onClick={() => navigate(item.path)}
                 className={`w-full flex items-center gap-3 px-3 py-2 rounded-xl transition-all ${
                   isActive 
-                    ? 'bg-white text-tottus-green shadow-lg font-semibold' 
+                    ? 'bg-white shadow-lg font-semibold' 
                     : 'text-white/90 hover:text-white hover:bg-white/10'
                 }`}
-                style={isActive ? { color: '#24D08A' } : {}}
+                style={isActive ? { color: '#75C045' } : {}}
               >
                 <Icon size={18} />
                 {sidebarOpen && <span className="text-sm font-medium">{item.label}</span>}
