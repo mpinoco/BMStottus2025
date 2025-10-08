@@ -102,12 +102,12 @@ const ConsumptionPage = ({ onLogout }) => {
             <div className="flex items-center justify-between">
               <div>
                 <p className="text-sm text-gray-600 mb-1">Papel Térmico Diario</p>
-                <h3 className="text-3xl font-bold" style={{ color: '#FFC220' }}>
+                <h3 className="text-3xl font-bold" style={{ color: '#FDE047' }}>
                   {totalPaperKm} km
                 </h3>
               </div>
-              <div className="w-14 h-14 rounded-full flex items-center justify-center" style={{ backgroundColor: 'rgba(255, 194, 32, 0.1)' }}>
-                <FileText className="w-7 h-7" style={{ color: '#FFC220' }} />
+              <div className="w-14 h-14 rounded-full flex items-center justify-center" style={{ backgroundColor: 'rgba(253, 224, 71, 0.1)' }}>
+                <FileText className="w-7 h-7" style={{ color: '#FDE047' }} />
               </div>
             </div>
           </Card>
