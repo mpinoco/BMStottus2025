@@ -21,7 +21,8 @@ code {
 @layer base {
   :root {
         /* Tottus Brand Colors */
-        --color-tottus-main: #24D08A;
+        --color-tottus-logo: #75C045;
+        --color-tottus-button: #24D08A;
         --color-tottus-light: #D0DF00;
         --color-tottus-dark: #1BAF73;
         --color-tottus-blue: #003DA5;
