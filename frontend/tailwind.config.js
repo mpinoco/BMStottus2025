@@ -13,6 +13,14 @@ module.exports = {
   			sm: 'calc(var(--radius) - 4px)'
   		},
   		colors: {
+  			// Tottus brand colors
+  			'tottus': {
+  				'green': '#64A70B',      // Main green
+  				'light-green': '#D0DF00', // Light green
+  				'blue': '#003DA5',        // Blue
+  				'white': '#FFFFFF',
+  				'black': '#000000'
+  			},
   			background: 'hsl(var(--background))',
   			foreground: 'hsl(var(--foreground))',
   			card: {
