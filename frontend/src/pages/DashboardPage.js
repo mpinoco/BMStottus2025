@@ -417,7 +417,7 @@ const DashboardPage = ({ onLogout }) => {
                       <Button 
                         size="sm" 
                         className="hover:shadow-lg hover:scale-105 transition-all duration-200"
-                        style={{ backgroundColor: '#0071CE', color: 'white' }}
+                        style={{ backgroundColor: '#10B981', color: 'white' }}
                         onClick={() => navigate(`/store/${store.id}`)}
                       >
                         Ver Detalles
