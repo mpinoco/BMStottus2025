@@ -15,7 +15,8 @@ module.exports = {
   		colors: {
   			// Tottus brand colors
   			'tottus': {
-  				'green': '#24D08A',      // Main green (from button)
+  				'logo': '#75C045',       // Logo green (sidebar)
+  				'button': '#24D08A',     // Button green 
 				'green-dark': '#1BAF73', // Darker variant
   				'light-green': '#D0DF00', // Light green
   				'blue': '#003DA5',        // Blue
