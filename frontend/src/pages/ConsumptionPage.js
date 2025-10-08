@@ -65,7 +65,7 @@ const ConsumptionPage = ({ onLogout }) => {
     return (
       <Layout onLogout={onLogout}>
         <div className="flex items-center justify-center h-full">
-          <div className="w-16 h-16 border-4 border-blue-600 border-t-transparent rounded-full animate-spin" />
+          <div className="w-16 h-16 border-4 border-tottus-primary border-t-transparent rounded-full animate-spin" />
         </div>
       </Layout>
     );
