@@ -21,9 +21,10 @@ code {
 @layer base {
   :root {
         /* Tottus Brand Colors */
-        --color-tottus-389c: #D0DF00;
-        --color-tottus-369c: #64A70B;
-        --color-tottus-293c: #003DA5;
+        --color-tottus-main: #24D08A;
+        --color-tottus-light: #D0DF00;
+        --color-tottus-dark: #1BAF73;
+        --color-tottus-blue: #003DA5;
         --color-tottus-white: #FFFFFF;
         --color-tottus-black: #000000;
         
@@ -34,24 +35,24 @@ code {
         --card-foreground: 0 0% 3.9%;
         --popover: 0 0% 100%;
         --popover-foreground: 0 0% 3.9%;
-        --primary: 95 66% 36%; /* Tottus green */
+        --primary: 158 73% 49%; /* Tottus main green #24D08A */
         --primary-foreground: 0 0% 98%;
         --secondary: 0 0% 96.1%;
         --secondary-foreground: 0 0% 9%;
         --muted: 0 0% 96.1%;
         --muted-foreground: 0 0% 45.1%;
-        --accent: 76 100% 44%; /* Tottus light green */
+        --accent: 158 73% 49%; /* Tottus main green */
         --accent-foreground: 0 0% 9%;
         --destructive: 0 84.2% 60.2%;
         --destructive-foreground: 0 0% 98%;
         --border: 0 0% 89.8%;
         --input: 0 0% 89.8%;
-        --ring: 95 66% 36%; /* Tottus green for focus rings */
-        --chart-1: 95 66% 36%; /* Tottus green */
-        --chart-2: 220 100% 33%; /* Tottus blue */
-        --chart-3: 76 100% 44%; /* Tottus light green */
-        --chart-4: 43 74% 66%;
-        --chart-5: 27 87% 67%;
+        --ring: 158 73% 49%; /* Tottus green for focus rings */
+        --chart-1: 158 73% 49%; /* Tottus main green */
+        --chart-2: 158 80% 60%; /* Tottus light green variant */
+        --chart-3: 158 65% 35%; /* Tottus dark green variant */
+        --chart-4: 76 100% 44%; /* Tottus light green */
+        --chart-5: 220 100% 33%; /* Tottus blue accent */
         --radius: 0.5rem;
     }
   .dark {
