@@ -30,7 +30,7 @@ const Layout = ({ children, onLogout }) => {
       <aside 
         className={`${sidebarOpen ? 'w-64' : 'w-20'} transition-all duration-300 shadow-xl flex flex-col`}
         style={{ 
-          background: 'linear-gradient(180deg, #64A70B 0%, #003DA5 100%)',
+          backgroundColor: '#24D08A',
           boxShadow: '4px 0 20px rgba(0, 0, 0, 0.1)'
         }}
       >
@@ -77,9 +77,10 @@ const Layout = ({ children, onLogout }) => {
                 onClick={() => navigate(item.path)}
                 className={`w-full flex items-center gap-3 px-3 py-2 rounded-xl transition-all ${
                   isActive 
-                    ? 'bg-white text-green-600 shadow-lg font-semibold' 
+                    ? 'bg-white text-tottus-green shadow-lg font-semibold' 
                     : 'text-white/90 hover:text-white hover:bg-white/10'
                 }`}
+                style={isActive ? { color: '#24D08A' } : {}}
               >
                 <Icon size={18} />
                 {sidebarOpen && <span className="text-sm font-medium">{item.label}</span>}

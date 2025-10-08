@@ -107,21 +107,21 @@ const LoginPage = ({ onLogin }) => {
                   id="remember"
                   type="checkbox"
                   className="w-3 h-3 rounded"
-                  style={{ accentColor: '#64A70B' }}
+                  style={{ accentColor: '#24D08A' }}
                 />
                 <label htmlFor="remember" className="ml-2 text-[10px] text-white drop-shadow-lg">
                   Recordarme
                 </label>
               </div>
 
-              {/* Botón de login - Color verde Tottus */}
+              {/* Botón de login - Color verde Tottus exacto */}
               <Button 
                 data-testid="login-button"
                 type="submit"
                 disabled={isLoading}
                 className="w-full h-8 text-xs font-semibold rounded-lg shadow-lg hover:shadow-xl transition-all hover:scale-105"
                 style={{ 
-                  backgroundColor: '#64A70B',
+                  backgroundColor: '#24D08A',
                   color: 'white'
                 }}
               >
