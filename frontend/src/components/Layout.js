@@ -30,7 +30,7 @@ const Layout = ({ children, onLogout }) => {
       <aside 
         className={`${sidebarOpen ? 'w-64' : 'w-20'} transition-all duration-300 shadow-xl flex flex-col`}
         style={{ 
-          backgroundColor: '#24D08A',
+          backgroundColor: '#75C045',
           boxShadow: '4px 0 20px rgba(0, 0, 0, 0.1)'
         }}
       >
