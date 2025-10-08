@@ -126,12 +126,12 @@ const DashboardPage = ({ onLogout }) => {
             <div className="flex items-center justify-between">
               <div>
                 <p className="text-sm text-gray-600 mb-1">Kilos Pesados Hoy</p>
-                <h3 className="text-3xl font-bold" style={{ color: '#79b9e7' }}>
+                <h3 className="text-3xl font-bold" style={{ color: '#10B981' }}>
                   {metrics?.total_kg_today.toLocaleString()}
                 </h3>
               </div>
-              <div className="w-14 h-14 rounded-full flex items-center justify-center" style={{ backgroundColor: 'rgba(121, 185, 231, 0.1)' }}>
-                <Scale className="w-7 h-7" style={{ color: '#79b9e7' }} />
+              <div className="w-14 h-14 rounded-full flex items-center justify-center" style={{ backgroundColor: 'rgba(16, 185, 129, 0.1)' }}>
+                <Scale className="w-7 h-7" style={{ color: '#10B981' }} />
               </div>
             </div>
           </Card>
