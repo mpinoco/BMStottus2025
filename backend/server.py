@@ -114,26 +114,19 @@ class Ticket(BaseModel):
 # =================== INITIAL DATA GENERATION ===================
 
 TOTTUS_STORES = [
-    {"name": "Tottus La Dehesa", "comuna": "Las Condes", "lat": -33.3686, "lon": -70.5127},
-    {"name": "Tottus Costanera Center", "comuna": "Providencia", "lat": -33.4175, "lon": -70.6061},
-    {"name": "Tottus Alto Las Condes", "comuna": "Las Condes", "lat": -33.3977, "lon": -70.5430},
-    {"name": "Tottus Kennedy", "comuna": "Las Condes", "lat": -33.4061, "lon": -70.5588},
-    {"name": "Tottus Portal La Dehesa", "comuna": "Lo Barnechea", "lat": -33.3486, "lon": -70.5091},
-    {"name": "Tottus San Bernardo", "comuna": "San Bernardo", "lat": -33.5926, "lon": -70.7009},
-    {"name": "Tottus Maipú", "comuna": "Maipú", "lat": -33.5115, "lon": -70.7581},
-    {"name": "Tottus Quilicura", "comuna": "Quilicura", "lat": -33.3608, "lon": -70.7342},
-    {"name": "Tottus Las Rejas", "comuna": "Maipu", "lat": -33.5200, "lon": -70.7800},
-    {"name": "Tottus Puente Alto", "comuna": "Puente Alto", "lat": -33.6110, "lon": -70.5756},
-    {"name": "Tottus La Florida", "comarca": "La Florida", "lat": -33.5282, "lon": -70.5985},
-    {"name": "Tottus Ñuñoa", "comuna": "Ñuñoa", "lat": -33.4564, "lon": -70.5989},
-    {"name": "Tottus San Miguel", "comuna": "San Miguel", "lat": -33.4969, "lon": -70.6513},
-    {"name": "Tottus El Bosque", "comuna": "El Bosque", "lat": -33.5625, "lon": -70.6756},
-    {"name": "Tottus Independencia", "comuna": "Independencia", "lat": -33.4164, "lon": -70.6643},
-    {"name": "Tottus Recoleta", "comuna": "Recoleta", "lat": -33.4029, "lon": -70.6399},
-    {"name": "Tottus Huechuraba", "comuna": "Huechuraba", "lat": -33.3695, "lon": -70.6369},
-    {"name": "Tottus Macul", "comuna": "Macul", "lat": -33.4850, "lon": -70.5990},
-    {"name": "Tottus Peñalolén", "comuna": "Peñalolén", "lat": -33.4896, "lon": -70.5428},
-    {"name": "Tottus La Granja", "comuna": "La Granja", "lat": -33.5383, "lon": -70.6220}
+    {"name": "Tottus Vicuña Mackenna", "comuna": "Santiago", "address": "Av. Vicuña Mackenna 665, Santiago", "lat": -33.4447, "lon": -70.6395},
+    {"name": "Tottus Nataniel Cox", "comuna": "Santiago", "address": "Nataniel Cox 620, Santiago", "lat": -33.4423, "lon": -70.6525},
+    {"name": "Tottus Catedral", "comuna": "Santiago", "address": "Calle Catedral 1850, Santiago", "lat": -33.4263, "lon": -70.6894},
+    {"name": "Tottus Alameda", "comuna": "Estación Central", "address": "Av. Libertador Bernardo O'Higgins 3470, Estación Central", "lat": -33.4542, "lon": -70.6971},
+    {"name": "Tottus O'Higgins", "comuna": "Santiago", "address": "Av. O'Higgins 800, local 1, Santiago", "lat": -33.4489, "lon": -70.6693},
+    {"name": "Tottus Ossa", "comuna": "Santiago", "address": "Av. Ossa 123, Santiago", "lat": -33.4378, "lon": -70.6518},
+    {"name": "Tottus Kennedy", "comuna": "Las Condes", "address": "Av. Presidente Kennedy 5601, Santiago", "lat": -33.4061, "lon": -70.5588},
+    {"name": "Tottus Tobalaba", "comuna": "Ñuñoa", "address": "Av. Tobalaba 11201, Santiago", "lat": -33.4564, "lon": -70.5989},
+    {"name": "Tottus Américo Vespucio", "comuna": "La Florida", "address": "Av. Américo Vespucio 7310, Santiago", "lat": -33.5282, "lon": -70.5985},
+    {"name": "Tottus Huechuraba", "comuna": "Huechuraba", "address": "Santa Marta de Huechuraba 7300, Huechuraba", "lat": -33.3695, "lon": -70.6369},
+    {"name": "Tottus Lo Prado", "comuna": "Lo Prado", "address": "San Pablo 6702, Lo Prado", "lat": -33.4440, "lon": -70.7243},
+    {"name": "Tottus Pudahuel", "comuna": "Pudahuel", "address": "Avda. La Travesía 7087, Pudahuel", "lat": -33.4403, "lon": -70.7460},
+    {"name": "Tottus Las Condes", "comuna": "Las Condes", "address": "Napoleón 3096, Las Condes", "lat": -33.4172, "lon": -70.5838}
 ]
 
 def generate_device(device_type: str) -> BalanceDevice:
