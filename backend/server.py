@@ -506,7 +506,7 @@ def get_fallback_predictions():
         ),
         AIPrediction(
             title="Detección de Anomalías",
-            content="En el local Recoleta se registran muchas mediciones de 335g, equivalentes a una lata de refresco. Podría indicar fraude en autoservicio; revisa cámaras y refuerza la supervisión.",
+            content="En Tottus Recoleta se registran muchas mediciones de 335g, equivalentes a una lata de refresco. Podría indicar fraude en autoservicio; revisa cámaras y refuerza la supervisión.",
             category="fraud",
             priority="high"
         )
