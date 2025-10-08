@@ -17,9 +17,12 @@ module.exports = {
   			'tottus': {
   				'logo': '#75C045',       // Logo green (sidebar)
   				'button': '#24D08A',     // Button green 
-				'green-dark': '#1BAF73', // Darker variant
-  				'light-green': '#D0DF00', // Light green
-  				'blue': '#003DA5',        // Blue
+  				'primary': '#10B981',    // Primary dashboard green
+  				'dark': '#047857',       // Dark green
+  				'light': '#34D399',      // Light green  
+  				'accent': '#FDE047',     // Yellow accent
+  				'orange': '#FB923C',     // Orange accent
+  				'gray': '#6B7280',       // Gray
   				'white': '#FFFFFF',
   				'black': '#000000'
   			},
