@@ -52,11 +52,11 @@ code {
         --border: 0 0% 89.8%;
         --input: 0 0% 89.8%;
         --ring: 158 73% 49%; /* Tottus green for focus rings */
-        --chart-1: 158 73% 49%; /* Tottus main green */
-        --chart-2: 158 80% 60%; /* Tottus light green variant */
-        --chart-3: 158 65% 35%; /* Tottus dark green variant */
-        --chart-4: 76 100% 44%; /* Tottus light green */
-        --chart-5: 220 100% 33%; /* Tottus blue accent */
+        --chart-1: 158 73% 49%; /* Tottus primary green #10B981 */
+        --chart-2: 158 81% 60%; /* Tottus light green #34D399 */
+        --chart-3: 158 89% 35%; /* Tottus dark green #047857 */
+        --chart-4: 45 97% 64%; /* Accent yellow #FDE047 */
+        --chart-5: 24 95% 62%; /* Orange accent #FB923C */
         --radius: 0.5rem;
     }
   .dark {
