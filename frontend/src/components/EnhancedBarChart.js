@@ -138,7 +138,7 @@ const EnhancedBarChart = ({ data, title, stores }) => {
                     size="sm"
                     variant={topCount === option ? 'default' : 'outline'}
                     onClick={() => setTopCount(option)}
-                    style={topCount === option ? { backgroundColor: '#FFC220', color: '#000' } : {}}
+                    style={topCount === option ? { backgroundColor: '#FDE047', color: '#000' } : {}}
                     className="flex-1"
                   >
                     {option}
