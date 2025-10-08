@@ -59,7 +59,7 @@ const ConsumptionPage = ({ onLogout }) => {
     { name: 'Balanzas IA', value: stores.reduce((sum, s) => sum + s.balances_ia, 0) * 1.8 }
   ];
 
-  const COLORS = ['#0071CE', '#FFC220', '#1B4D89'];
+  const COLORS = ['#10B981', '#FDE047', '#047857'];
 
   if (loading) {
     return (
