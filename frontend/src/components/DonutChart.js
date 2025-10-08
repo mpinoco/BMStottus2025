@@ -68,7 +68,7 @@ const DonutChart = ({ data, title, totalStores }) => {
               size="sm"
               variant={selectedPeriod === period.value ? 'default' : 'outline'}
               onClick={() => setSelectedPeriod(period.value)}
-              style={selectedPeriod === period.value ? { backgroundColor: '#0071CE', color: 'white' } : {}}
+              style={selectedPeriod === period.value ? { backgroundColor: '#10B981', color: 'white' } : {}}
             >
               <Calendar size={14} className="mr-1" />
               {period.label}
