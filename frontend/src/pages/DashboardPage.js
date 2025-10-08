@@ -405,7 +405,7 @@ const DashboardPage = ({ onLogout }) => {
                       <Badge variant="outline">{store.balances_autoservicio}</Badge>
                     </td>
                     <td className="px-4 py-3 text-center">
-                      <Badge style={{ backgroundColor: '#79b9e7', color: 'white' }}>{store.balances_ia}</Badge>
+                      <Badge style={{ backgroundColor: '#10B981', color: 'white' }}>{store.balances_ia}</Badge>
                     </td>
                     <td className="px-4 py-3 text-center">
                       <div className="flex items-center justify-center gap-2">
