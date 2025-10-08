@@ -88,12 +88,12 @@ const ConsumptionPage = ({ onLogout }) => {
             <div className="flex items-center justify-between">
               <div>
                 <p className="text-sm text-gray-600 mb-1">Consumo Energético Diario</p>
-                <h3 className="text-3xl font-bold" style={{ color: '#0071CE' }}>
+                <h3 className="text-3xl font-bold" style={{ color: '#10B981' }}>
                   {totalEnergyConsumption.toFixed(2)} kWh
                 </h3>
               </div>
-              <div className="w-14 h-14 rounded-full flex items-center justify-center" style={{ backgroundColor: 'rgba(0, 113, 206, 0.1)' }}>
-                <Zap className="w-7 h-7" style={{ color: '#0071CE' }} />
+              <div className="w-14 h-14 rounded-full flex items-center justify-center" style={{ backgroundColor: 'rgba(16, 185, 129, 0.1)' }}>
+                <Zap className="w-7 h-7" style={{ color: '#10B981' }} />
               </div>
             </div>
           </Card>
