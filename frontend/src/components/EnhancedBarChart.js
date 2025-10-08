@@ -43,11 +43,11 @@ const EnhancedBarChart = ({ data, title, stores }) => {
   // Color gradient based on value
   const getBarColor = (value, maxValue) => {
     const intensity = value / maxValue;
-    if (intensity > 0.8) return '#0071CE';
-    if (intensity > 0.6) return '#3B9AE1';
-    if (intensity > 0.4) return '#66B3E8';
-    if (intensity > 0.2) return '#99CCEF';
-    return '#CCE5F6';
+    if (intensity > 0.8) return '#10B981';
+    if (intensity > 0.6) return '#34D399';
+    if (intensity > 0.4) return '#6EE7B7';
+    if (intensity > 0.2) return '#A7F3D0';
+    return '#D1FAE5';
   };
 
   const maxValue = Math.max(...dataWithTrends.map(d => d.kg));
