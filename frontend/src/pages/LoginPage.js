@@ -33,12 +33,12 @@ const LoginPage = ({ onLogin }) => {
         {/* Columna Izquierda - Welcome */}
         <div className="hidden lg:flex lg:w-1/2 flex-col justify-between p-16">
           <div>
-            {/* Logo Walmart */}
+            {/* Logo Tottus */}
             <div className="mb-12">
               <img 
-                src="https://customer-assets.emergentagent.com/job_scale-manager-2/artifacts/82tx75n1_logowalmart.png" 
-                alt="Walmart Logo" 
-                className="h-16 w-auto"
+                src="/tottus-logo.png" 
+                alt="Tottus Logo" 
+                className="h-20 w-auto"
               />
             </div>
 
@@ -55,7 +55,7 @@ const LoginPage = ({ onLogin }) => {
                 de nuevo
               </h1>
               <p className="text-white text-lg leading-relaxed max-w-md opacity-90">
-                Sistema integral de gestión de balanzas para Walmart Chile. 
+                Sistema integral de gestión de balanzas para Tottus Chile. 
                 Controla, monitorea y optimiza tu red de equipos en tiempo real.
               </p>
             </div>
@@ -107,21 +107,21 @@ const LoginPage = ({ onLogin }) => {
                   id="remember"
                   type="checkbox"
                   className="w-3 h-3 rounded"
-                  style={{ accentColor: '#0071CE' }}
+                  style={{ accentColor: '#64A70B' }}
                 />
                 <label htmlFor="remember" className="ml-2 text-[10px] text-white drop-shadow-lg">
                   Recordarme
                 </label>
               </div>
 
-              {/* Botón de login - Color azul Walmart */}
+              {/* Botón de login - Color verde Tottus */}
               <Button 
                 data-testid="login-button"
                 type="submit"
                 disabled={isLoading}
                 className="w-full h-8 text-xs font-semibold rounded-lg shadow-lg hover:shadow-xl transition-all hover:scale-105"
                 style={{ 
-                  backgroundColor: '#0071CE',
+                  backgroundColor: '#64A70B',
                   color: 'white'
                 }}
               >

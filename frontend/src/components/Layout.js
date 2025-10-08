@@ -30,18 +30,18 @@ const Layout = ({ children, onLogout }) => {
       <aside 
         className={`${sidebarOpen ? 'w-64' : 'w-20'} transition-all duration-300 shadow-xl flex flex-col`}
         style={{ 
-          background: 'linear-gradient(180deg, #0071CE 0%, #004C8C 100%)',
+          background: 'linear-gradient(180deg, #64A70B 0%, #003DA5 100%)',
           boxShadow: '4px 0 20px rgba(0, 0, 0, 0.1)'
         }}
       >
-        {/* Header with Walmart Logo - Compacted */}
+        {/* Header with Tottus Logo - Compacted */}
         <div className="p-3 border-b border-white/10">
           {sidebarOpen ? (
             <div>
               <div className="flex items-center justify-between mb-2">
                 <img 
-                  src="https://customer-assets.emergentagent.com/job_scale-manager-2/artifacts/82tx75n1_logowalmart.png" 
-                  alt="Walmart Logo" 
+                  src="/tottus-logo.png" 
+                  alt="Tottus Logo" 
                   className="h-8 w-auto"
                 />
                 <button 
@@ -77,7 +77,7 @@ const Layout = ({ children, onLogout }) => {
                 onClick={() => navigate(item.path)}
                 className={`w-full flex items-center gap-3 px-3 py-2 rounded-xl transition-all ${
                   isActive 
-                    ? 'bg-white text-blue-600 shadow-lg font-semibold' 
+                    ? 'bg-white text-green-600 shadow-lg font-semibold' 
                     : 'text-white/90 hover:text-white hover:bg-white/10'
                 }`}
               >
