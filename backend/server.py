@@ -422,8 +422,8 @@ async def get_ai_predictions():
                     problematic_devices += 1
         
         context = f"""Sistema BM MANAGER - Datos actuales:
-- Total locales: {total_stores}
-- Locales offline: {offline_stores}
+- Total tiendas Tottus: {total_stores}
+- Tiendas offline: {offline_stores}
 - Dispositivos con problemas: {problematic_devices} de {total_devices}
 - Es temporada de invierno (junio-agosto) en Chile
 - Consumo diario estimado: 615 rollos de papel térmico
@@ -435,7 +435,7 @@ async def get_ai_predictions():
         llm_chat = LlmChat(
             api_key=os.environ.get('EMERGENT_LLM_KEY'),
             session_id=f"ai-predictions-{datetime.now().strftime('%Y%m%d')}",
-            system_message="Eres un asistente de IA especializado en análisis predictivo para sistemas de balanzas de supermercados Walmart en Chile. Generas insights valiosos basados en datos del sistema."
+            system_message="Eres un asistente de IA especializado en análisis predictivo para sistemas de balanzas de supermercados Tottus en Chile. Generas insights valiosos basados en datos del sistema."
         ).with_model("openai", "gpt-4o")
         
         prompt = f"""{context}
