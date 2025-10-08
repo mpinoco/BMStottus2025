@@ -23,9 +23,12 @@ code {
         /* Tottus Brand Colors */
         --color-tottus-logo: #75C045;
         --color-tottus-button: #24D08A;
-        --color-tottus-light: #D0DF00;
-        --color-tottus-dark: #1BAF73;
-        --color-tottus-blue: #003DA5;
+        --color-tottus-primary: #10B981;
+        --color-tottus-dark: #047857;
+        --color-tottus-light: #34D399;
+        --color-tottus-accent: #FDE047;
+        --color-tottus-orange: #FB923C;
+        --color-tottus-gray: #6B7280;
         --color-tottus-white: #FFFFFF;
         --color-tottus-black: #000000;
         
