@@ -176,7 +176,7 @@ const ConsumptionPage = ({ onLogout }) => {
                 <XAxis type="number" />
                 <YAxis dataKey="name" type="category" width={100} />
                 <Tooltip />
-                <Bar dataKey="energy" fill="#0071CE" radius={[0, 8, 8, 0]} />
+                <Bar dataKey="energy" fill="#10B981" radius={[0, 8, 8, 0]} />
               </BarChart>
             </ResponsiveContainer>
           </Card>
