@@ -213,7 +213,7 @@ const ConsumptionPage = ({ onLogout }) => {
                       <td className="px-4 py-3 text-center font-semibold">{store.balances_autoservicio}</td>
                       <td className="px-4 py-3 text-center">{paperMeters.toLocaleString()} m</td>
                       <td className="px-4 py-3 text-center">{rolls}</td>
-                      <td className="px-4 py-3 text-center font-semibold" style={{ color: '#0071CE' }}>{energy}</td>
+                      <td className="px-4 py-3 text-center font-semibold" style={{ color: '#10B981' }}>{energy}</td>
                     </tr>
                   );
                 })}
