@@ -300,7 +300,7 @@ const DashboardPage = ({ onLogout }) => {
                   type="monotone" 
                   dataKey="value" 
                   name={product.product}
-                  stroke={['#10b981', '#f59e0b', '#0071CE'][idx]}
+                  stroke={['#10B981', '#FDE047', '#34D399'][idx]}
                   strokeWidth={3}
                   dot={{ r: 5, strokeWidth: 2 }}
                 />
