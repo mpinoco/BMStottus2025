@@ -106,7 +106,7 @@ const EnhancedBarChart = ({ data, title, stores }) => {
               size="sm"
               variant={selectedInterval === interval.value ? 'default' : 'outline'}
               onClick={() => setSelectedInterval(interval.value)}
-              style={selectedInterval === interval.value ? { backgroundColor: '#0071CE', color: 'white' } : {}}
+              style={selectedInterval === interval.value ? { backgroundColor: '#10B981', color: 'white' } : {}}
             >
               <Calendar size={14} className="mr-1" />
               {interval.label}
