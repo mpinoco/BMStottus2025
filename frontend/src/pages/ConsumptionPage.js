@@ -130,12 +130,12 @@ const ConsumptionPage = ({ onLogout }) => {
             <div className="flex items-center justify-between">
               <div>
                 <p className="text-sm text-gray-600 mb-1">Rollos Usados/Día</p>
-                <h3 className="text-3xl font-bold" style={{ color: '#1B4D89' }}>
+                <h3 className="text-3xl font-bold" style={{ color: '#FB923C' }}>
                   {totalRolls}
                 </h3>
               </div>
-              <div className="w-14 h-14 rounded-full flex items-center justify-center" style={{ backgroundColor: 'rgba(27, 77, 137, 0.1)' }}>
-                <Package className="w-7 h-7" style={{ color: '#1B4D89' }} />
+              <div className="w-14 h-14 rounded-full flex items-center justify-center" style={{ backgroundColor: 'rgba(251, 146, 60, 0.1)' }}>
+                <Package className="w-7 h-7" style={{ color: '#FB923C' }} />
               </div>
             </div>
           </Card>
