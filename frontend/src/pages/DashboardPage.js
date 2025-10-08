@@ -322,7 +322,7 @@ const DashboardPage = ({ onLogout }) => {
                   switch(priority) {
                     case 'high': return { bg: 'bg-red-50', border: 'border-red-300', badge: '#ef4444', icon: 'text-red-600' };
                     case 'medium': return { bg: 'bg-amber-50', border: 'border-amber-300', badge: '#f59e0b', icon: 'text-amber-600' };
-                    default: return { bg: 'bg-blue-50', border: 'border-blue-300', badge: '#0071CE', icon: 'text-blue-600' };
+                    default: return { bg: 'bg-green-50', border: 'border-green-300', badge: '#10B981', icon: 'text-green-600' };
                   }
                 };
                 const colors = getPriorityColor(alert.priority);
