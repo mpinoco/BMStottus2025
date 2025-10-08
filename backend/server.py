@@ -156,7 +156,7 @@ async def initialize_data():
         return
     
     stores = []
-    for i, comuna_data in enumerate(SANTIAGO_COMUNAS[:20]):  # Limit to 20 stores
+    for i, store_data in enumerate(TOTTUS_STORES):  # Use real Tottus stores
         bms_count = random.randint(2, 4)  # Reduced range
         auto_count = random.randint(1, 3)  # Reduced range
         ia_count = random.randint(1, 2)    # Reduced range
@@ -180,12 +180,12 @@ async def initialize_data():
             status = "offline"
         
         store = Store(
-            name=f"Local {i+1}",
-            comuna=comuna_data["name"],
-            sap_code=f"SAP-{1000 + i}",
-            address=f"Av. Principal {100 + i*10}, {comuna_data['name']}",
-            latitude=comuna_data["lat"] + random.uniform(-0.01, 0.01),
-            longitude=comuna_data["lon"] + random.uniform(-0.01, 0.01),
+            name=store_data["name"],
+            comuna=store_data.get("comuna", "Santiago"),
+            sap_code=f"TTS-{1000 + i}",
+            address=f"Av. Principal {100 + i*10}, {store_data.get('comuna', 'Santiago')}",
+            latitude=store_data["lat"] + random.uniform(-0.01, 0.01),
+            longitude=store_data["lon"] + random.uniform(-0.01, 0.01),
             status=status,
             balances_bms=bms_count,
             balances_autoservicio=auto_count,
