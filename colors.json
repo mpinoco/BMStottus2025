@@ -1,0 +1,50 @@
+{
+  "brand": "Tottus (aprox. Pantone 389 C, 369 C, 293 C)",
+  "colors": {
+    "tottus-389c": {
+      "hex": "#D0DF00",
+      "rgb": [
+        208,
+        223,
+        0
+      ],
+      "usage": "Lima / verde claro"
+    },
+    "tottus-369c": {
+      "hex": "#64A70B",
+      "rgb": [
+        100,
+        167,
+        11
+      ],
+      "usage": "Verde principal"
+    },
+    "tottus-293c": {
+      "hex": "#003DA5",
+      "rgb": [
+        0,
+        61,
+        165
+      ],
+      "usage": "Azul de apoyo (registro histórico)"
+    },
+    "white": {
+      "hex": "#FFFFFF",
+      "rgb": [
+        255,
+        255,
+        255
+      ],
+      "usage": "Texto/inverso"
+    },
+    "black": {
+      "hex": "#000000",
+      "rgb": [
+        0,
+        0,
+        0
+      ],
+      "usage": "Texto primario sobre fondos claros"
+    }
+  }
+}

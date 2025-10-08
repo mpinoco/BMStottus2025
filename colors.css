@@ -1,0 +1,18 @@
+:root {
+  --color-tottus-389c: #D0DF00;
+  --color-tottus-369c: #64A70B;
+  --color-tottus-293c: #003DA5;
+  --color-tottus-white: #FFFFFF;
+  --color-tottus-black: #000000;
+}
+
+/* Ejemplos */
+.bg-tottus { background-color: var(--color-tottus-369c); color: var(--color-tottus-white); }
+.text-tottus { color: var(--color-tottus-369c); }
+.btn-tottus {
+  background-color: var(--color-tottus-369c);
+  color: var(--color-tottus-white);
+  border-radius: 8px;
+  padding: 10px 16px;
+}
+.btn-tottus:hover { background-color: var(--color-tottus-389c); }
