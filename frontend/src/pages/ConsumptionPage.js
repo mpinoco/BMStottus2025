@@ -120,8 +120,8 @@ const ConsumptionPage = ({ onLogout }) => {
                   {totalPaperMeters.toLocaleString()} m
                 </h3>
               </div>
-              <div className="w-14 h-14 rounded-full bg-green-100 flex items-center justify-center">
-                <TrendingUp className="w-7 h-7 text-green-600" />
+              <div className="w-14 h-14 rounded-full flex items-center justify-center" style={{ backgroundColor: 'rgba(52, 211, 153, 0.1)' }}>
+                <TrendingUp className="w-7 h-7" style={{ color: '#34D399' }} />
               </div>
             </div>
           </Card>
